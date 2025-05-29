@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/makves-test-task/static/css/main.fc5c2c69.css",
+    "main.js": "/makves-test-task/static/js/main.f48d61d7.js",
+    "index.html": "/makves-test-task/index.html",
+    "main.fc5c2c69.css.map": "/makves-test-task/static/css/main.fc5c2c69.css.map",
+    "main.f48d61d7.js.map": "/makves-test-task/static/js/main.f48d61d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc5c2c69.css",
+    "static/js/main.f48d61d7.js"
+  ]
+}
