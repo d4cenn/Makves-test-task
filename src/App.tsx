@@ -166,15 +166,15 @@ export default function App() {
             type="monotone"
             dataKey="uv"
             stroke="url(#colorUv)"
-            dot={(props) => <CustomizedDot props={props} breakingPointValue={breakingPointValueUv} strokeColor="#82ca9d" />}
-            activeDot={(props: any) => <CustomizedActiveDot props={props} breakingPointValue={breakingPointValueUv} fillColor="#82ca9d" />}
+            dot={(props) => <CustomizedDot key={props.key} props={props} breakingPointValue={breakingPointValueUv} strokeColor="#82ca9d" />}
+            activeDot={(props: any) => <CustomizedActiveDot key={props.key} props={props} breakingPointValue={breakingPointValueUv} fillColor="#82ca9d" />}
         />
         <Line
             type="monotone"
             dataKey="pv"
             stroke="url(#colorPv)"
-            dot={(props) => <CustomizedDot props={props} breakingPointValue={breakingPointValuePv} strokeColor="#8884d8" />}
-            activeDot={(props: any) => <CustomizedActiveDot props={props} breakingPointValue={breakingPointValuePv} fillColor="#8884d8" />}
+            dot={(props) => <CustomizedDot key={props.key} props={props} breakingPointValue={breakingPointValuePv} strokeColor="#8884d8" />}
+            activeDot={(props: any) => <CustomizedActiveDot key={props.key} props={props} breakingPointValue={breakingPointValuePv} fillColor="#8884d8" />}
         />
       </LineChart>
   );
